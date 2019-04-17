@@ -2591,6 +2591,10 @@ html.no-csstransitions .home-content__main {
     margin: 5% 7%;
   }
 
+  .onclick {
+    font-size: 1rem;
+  }
+
 }
 
 /*
