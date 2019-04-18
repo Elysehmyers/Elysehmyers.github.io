@@ -2223,8 +2223,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-  padding-top: 18rem;
-  padding-bottom: 18rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
   background-color: #ffffff;
   position: relative;
 }
@@ -2384,8 +2384,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-  padding-top: 18rem;
-  padding-bottom: 18rem;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
   color: #555555;
   position: relative;
 }
@@ -2407,36 +2407,6 @@ html.no-csstransitions .home-content__main {
 .services-list .service-icon {
   color: #26bfb5;
   font-size: 4.8rem;
-}
-
-/* -------------------------------------------------------------------
- * responsive:
- * photo slider
- * ------------------------------------------------------------------- */
-
- @keyframes slidy {
-  0% { left: 0%; }
-  20% { left: 0%; }
-  25% { left: -100%; }
-  45% { left: -100%; }
-  50% { left: -200%; }
-  70% { left: -200%; }
-  75% { left: -300%; }
-  95% { left: -300%; }
-  100% { left: -400%; }
-  }
-
-body { margin: 0; }
-div#slider { overflow: hidden; }
-div#slider figure img { width: 20%; float: left; }
-div#slider figure {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 30s slidy infinite;
 }
 
 
@@ -2496,7 +2466,7 @@ div#slider figure {
  * ------------------------------------------------------------------- */
 .s-works {
   background: #ffffff;
-  padding: 18rem 0 24rem;
+  padding: 12rem 0 15rem;
   position: relative;
 }
 
@@ -2731,7 +2701,7 @@ div#slider figure {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-  padding-top: 21rem;
+  padding-top: 15rem;
   padding-bottom: 3rem;
   background-color: #111111;
   color: rgba(255, 255, 255, 0.3);
