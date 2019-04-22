@@ -3282,7 +3282,7 @@ html.no-csstransitions .home-content__main {
 }
 @media only screen and (max-width: 400px) {
   .s-contact {
-    padding-top: 9.6rem;
+    padding-top: 5rem;
     padding-bottom: 3rem;
   }
 
