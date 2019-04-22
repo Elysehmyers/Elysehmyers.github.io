@@ -2787,11 +2787,25 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-  padding-top: 15rem;
+  padding-top: 5rem;
   padding-bottom: 3rem;
   background-color: #111111;
   color: rgba(255, 255, 255, 0.3);
   position: relative;
+}
+
+#contact figure {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0 60px;
+  padding: 0;
+}
+#contact figure img {
+  width: 25%;
+  margin: 0;
+  padding: 0;
 }
 
 .s-contact a {
@@ -2808,6 +2822,7 @@ html.no-csstransitions .home-content__main {
   margin-top: 14.4rem;
   margin-bottom: 4.8rem;
 }
+
 
 .contact-email {
   display: inline-block;
@@ -3066,13 +3081,18 @@ html.no-csstransitions .home-content__main {
 }
 @media only screen and (max-width: 1200px) {
   .s-contact {
-    padding-top: 15rem;
+    padding-top: 8rem;
   }
 
   .contact-main {
-    margin-top: 13.2rem;
+    margin-top: 8rem;
   }
 
+  #contact figure img {
+    width: 35%;
+    margin: 0;
+    padding: 0;
+  }
 
   .contact-email {
     font-size: 5rem;
@@ -3099,6 +3119,12 @@ html.no-csstransitions .home-content__main {
     font-size: 4.2rem;
   }
 
+  #contact figure img {
+    width: 45%;
+    margin: 0;
+    padding: 0;
+  }
+
   .contact-number {
     font-size: 2.4rem;
   }
@@ -3115,8 +3141,14 @@ html.no-csstransitions .home-content__main {
 }
 @media only screen and (max-width: 800px) {
   .s-contact {
-    padding-top: 12rem;
+    padding-top: 6rem;
     padding-bottom: 9rem;
+  }
+
+  #contact figure img {
+    width: 45%;
+    margin: 0;
+    padding: 0;
   }
 
   .s-contact .buttons {
@@ -3222,6 +3254,11 @@ html.no-csstransitions .home-content__main {
   }
 
 
+  #contact figure img {
+    width: 70%;
+    margin: 0;
+    padding: 0;
+  }
   .mc-form input[type="email"],
   .mc-form label {
     text-align: center;
