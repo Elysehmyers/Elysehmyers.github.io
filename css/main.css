@@ -2285,6 +2285,50 @@ html.no-csstransitions .home-content__main {
   padding-right: 30px;
 }
 
+#about .rodney-hasana {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+
+}
+
+#about figure {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: auto;
+  padding: 0;
+  margin: 30px 0px;
+}
+
+#about figure img {
+  width: 40%;
+}
+
+#about figure h5 {
+  width: 100%;
+  text-align: center;
+  margin: 15px 0 0;
+  padding: 0;
+  font-size: 2.1rem;
+}
+
+#about .symposium {
+  margin: 10px 20px;
+}
+
+#about input[type="button"] {
+  margin: 40px 0 0;
+}
+
+
 
 /* -------------------------------------------------------------------
  * responsive:
@@ -2348,6 +2392,32 @@ html.no-csstransitions .home-content__main {
     font-size: 2.4rem;
   }
 }
+
+@media only screen and (max-width: 550px) {
+
+
+    #about figure {
+      width: 100%;
+      margin: 30px 0 0;
+
+    }
+
+    #about figure img {
+      width: 50%;
+    }
+
+    #about .symposium {
+      margin: 35px 0 0;
+    }
+
+    #about input[type="button"] {
+      margin: 35px 0;
+      font-size: 1.5rem;
+    }
+
+
+}
+
 @media only screen and (max-width: 400px) {
   .s-about {
     padding-top: 9.6rem;
@@ -2375,8 +2445,19 @@ html.no-csstransitions .home-content__main {
   .process__text {
     margin-left: 0;
   }
-}
 
+  #about figure {
+    width: 100%;
+
+  }
+
+  #about figure img {
+    width: 65%;
+  }
+
+
+
+}
 
 
 /* ===================================================================
@@ -2456,6 +2537,10 @@ html.no-csstransitions .home-content__main {
   .services-list [class*="col-"]:nth-child(n) {
     padding: 0;
   }
+
+
+
+
 }
 
 
@@ -3087,7 +3172,7 @@ html.no-csstransitions .home-content__main {
 
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 659px) {
   .s-contact {
     padding-bottom: 6rem;
   }
