@@ -2803,7 +2803,7 @@ html.no-csstransitions .home-content__main {
   padding: 0;
 }
 #contact figure img {
-  width: 25%;
+  width: 20%;
   margin: 0;
   padding: 0;
 }
@@ -3086,12 +3086,6 @@ html.no-csstransitions .home-content__main {
 
   .contact-main {
     margin-top: 8rem;
-  }
-
-  #contact figure img {
-    width: 35%;
-    margin: 0;
-    padding: 0;
   }
 
   .contact-email {
